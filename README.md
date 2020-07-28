@@ -11,7 +11,7 @@ Time       |What
 -----------|---------------------
 15:00-15:15|Doors are open       
 15:15-15:45|Layman talk          
-15:45-16:15|Break                
+15:45-16:15|Doors are open, break
 16:15-17:15|PhD defense          
 17:15-18:00|Congratulations      
 
