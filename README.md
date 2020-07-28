@@ -29,7 +29,7 @@ Time       |What                 |Who                  |Where
 15:00-15:15|Doors are open       |Everyone             |DJO
 15:15-15:45|Layman talk          |Everyone             |DJO
 15:45-16:15|Break                |Guests               |DJO
-          .|Preparation          |Richel and paranymphs|DJO
+.          |Preparation          |Richel and paranymphs|DJO
 16:15-17:15|PhD defense          |Everyone             |DJO
 17:15-18:00|Congratulations      |Everyone             |DJO
 18:00-20:00|Family dinner        |Family               |A top-secret location
