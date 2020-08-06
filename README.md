@@ -37,7 +37,8 @@ Time       |What                 |Who                  |Where
 
 ## Misc
 
- * Paranymphs: [Unsure](https://github.com/richelbilderbeek/phd_defense/issues/2)
+ * Paranymphs: [Unknown yet](https://github.com/richelbilderbeek/phd_defense/issues/2)
+ * Beer committee: paranymphs, Alexine de Wit, Sjors Maassen
  * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
  * [RuG announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
 
