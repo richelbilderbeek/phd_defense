@@ -44,7 +44,7 @@ Time       |What                 |Who                  |Where
 
 Rank| Name   | Confirmed
 ----|--------|----------
-  1 | Mart   | As good as
+  1 | Mart   | Willing: yes, agenda checked: not yet
   2 | Rohan  | Sent email to father
   3 | Bruno  | Sent email
   4 | Maksim | Sent email to mother
