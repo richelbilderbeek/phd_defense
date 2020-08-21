@@ -17,7 +17,8 @@ Time       |What
 
 ## Evening program
 
-Beer at somewhere, starting from 20:00.
+Beer at somewhere, starting from 20:00,
+at a location to be decided by the beernymphs.
 
 ## Full schedule
 
@@ -33,13 +34,17 @@ Time       |What                 |Who                  |Where
 16:15-17:15|PhD defense          |Everyone             |DJO
 17:15-18:00|Congratulations      |Everyone             |DJO
 18:00-20:00|Family dinner        |Family               |A top-secret location
-20:00-??:??|Beer!                |Adults               |Unknown yet
+20:00-??:??|Beer!                |Adults               |Unknown yet, decided by beernymphs
+
+## Kaart
+
+![](map.png)
 
 ## Paranymph list
 
 Rank| Name   | Confirmed
 ----|--------|----------
-  1 | Mart   | Not yet
+  1 | Mart   | As good as
   2 | Rohan  | Not yet
   3 | Bruno  | Not yet
   4 | Maksim | Not yet
@@ -50,10 +55,54 @@ Rank| Name   | Confirmed
   9 | Jesper | Not yet
  10 | Oliver | Not yet
 
+## (NL) Wat doet een paranimf?
+
+Een paranimf is een sjiek gekleed persoon met een plechtige taak,
+zoals een bruidsjonker/bruidsmeisje op een bruiloft.
+Zie ook [op Wikipedia](https://nl.wikipedia.org/wiki/Paranimf).
+
+Tijdens een promotie zijn er twee paranimfen.
+
+Tijdens de verdediging, zit Richel en de twee paranimfen in
+het Aquarium/Fijnmetaallokaal. Daar is een camera, namelijk
+die van Richel's laptop. Als een opponent vraagt een stelling ('proposition')
+uit het proefschrift voor te lezen, 
+gaat Richel uit beeld en mag een paranimf voor de camera een stelling voorlezen.
+Daarna mag hij/zij weer uit beeld en Richel in beeld.
+
+Het kan zijn dat een paranimf geen stelling voor mag lezen, 
+want dat hangt af van de professoren. De eerste stelling
+wordt door de eerst gekozen paranimf voorgelezen.
+De zeven stellingen kun je [hier](https://github.com/richelbilderbeek/thesis_propositions/blob/master/propositions.tex#L54)
+lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
+
+## Beernymphs
+
+ * Alexine
+ * Sjors
+ * Paranymphs
+
+## Volunteers
+
+ * Bruno
+ * Jacob
+ * Jasper
+ * Jesper
+ * Jonas
+ * Mart
+ * Oliver
+ * Quinn
+ * Rohan
+ * Seb
+ * (another one, see Teaching logbook)
+
+## (NL) Wat doet een vrijwilliger?
+
+Een vrijwilliger helpt met het opbouwen van de ruimte,
+ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
+
 ## Misc
 
- * Beer committee: paranymphs, Alexine de Wit, Sjors Maassen
  * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
  * [RuG announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
-
 
