@@ -25,7 +25,7 @@ This includes different roles
 
 Time       |What                 |Who                  |Where
 -----------|---------------------|---------------------|---------------------------------------------
-14:00-15:00|Preparation          |Richel               |DJO
+14:00-15:00|Preparation          |Richel and volunteers|DJO
 15:00-15:15|Doors are open       |Everyone             |DJO
 15:15-15:45|Layman talk          |Everyone             |DJO
 15:45-16:15|Break                |Guests               |DJO
