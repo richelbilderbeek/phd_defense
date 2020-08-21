@@ -45,8 +45,8 @@ Time       |What                 |Who                  |Where
 Rank| Name   | Confirmed
 ----|--------|----------
   1 | Mart   | As good as
-  2 | Rohan  | Not yet
-  3 | Bruno  | Not yet
+  2 | Rohan  | Sent email to father
+  3 | Bruno  | Sent email
   4 | Maksim | Not yet
   5 | Jasper | Not yet
   6 | Quinn  | Not yet
