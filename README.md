@@ -42,3 +42,15 @@ Time       |What                 |Who                  |Where
  * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
  * [RuG announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
 
+## Paranymph list
+
+  1. Mart
+  2. Rohan
+  3. Bruno
+  4. Maksim
+  5. Jasper
+  6. Quinn
+  7. Jacob
+  8. Seb
+  9.  Jesper
+  10. Oliver
