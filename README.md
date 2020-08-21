@@ -101,6 +101,13 @@ lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
 Een vrijwilliger helpt met het opbouwen van de ruimte,
 ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 
+## FAQ
+
+### Am I welcome?
+
+ * For the ceremony: yes
+ * For the evening program: if you are an adult
+
 ## Misc
 
  * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
