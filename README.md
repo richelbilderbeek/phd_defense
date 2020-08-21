@@ -35,22 +35,25 @@ Time       |What                 |Who                  |Where
 18:00-20:00|Family dinner        |Family               |A top-secret location
 20:00-??:??|Beer!                |Adults               |Unknown yet
 
+## Paranymph list
+
+Rank| Name   | Confirmed
+----|--------|----------
+  1 | Mart   | Not yet
+  2 | Rohan  | Not yet
+  3 | Bruno  | Not yet
+  4 | Maksim | Not yet
+  5 | Jasper | Not yet
+  6 | Quinn  | Not yet
+  7 | Jacob  | Not yet
+  8 | Seb    | Not yet
+  9 | Jesper | Not yet
+ 10 | Oliver | Not yet
+
 ## Misc
 
- * Paranymphs: [Unknown yet](https://github.com/richelbilderbeek/phd_defense/issues/2)
  * Beer committee: paranymphs, Alexine de Wit, Sjors Maassen
  * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
  * [RuG announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
 
-## Paranymph list
 
-  1. Mart
-  2. Rohan
-  3. Bruno
-  4. Maksim
-  5. Jasper
-  6. Quinn
-  7. Jacob
-  8. Seb
-  9.  Jesper
-  10. Oliver
