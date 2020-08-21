@@ -105,6 +105,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 
 ### Am I welcome?
 
+ * For the layman talk: yes
  * For the ceremony: yes
  * For the evening program: if you are an adult
 
