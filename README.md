@@ -70,11 +70,15 @@ uit het proefschrift voor te lezen,
 gaat Richel uit beeld en mag een paranimf voor de camera een stelling voorlezen.
 Daarna mag hij/zij weer uit beeld en Richel in beeld.
 
+Het is onduidelijk of een paranimf volwassen moet zijn. 
+Zou je een nep-snor of nep-baard hebben, zou dat niet erg zijn :sunglasses: :+1:.
+
 Het kan zijn dat een paranimf geen stelling voor mag lezen, 
 want dat hangt af van de professoren. De eerste stelling
 wordt door de eerst gekozen paranimf voorgelezen.
 De zeven stellingen kun je [hier](https://github.com/richelbilderbeek/thesis_propositions/blob/master/propositions.tex#L54)
 lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
+
 
 ## Beernymphs
 
