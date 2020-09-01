@@ -44,10 +44,10 @@ Time       |What                 |Who                  |Where
 
 Rank| Name   | Confirmed
 ----|--------|----------
-  1 | Mart   | Willing: yes, agenda checked: not yet
-  2 | Rohan  | Sent email to father
-  3 | Bruno  | Sent email
-  4 | Maksim | Sent email to mother
+  1 | Mart   | Confirmed
+  2 | Rohan  | Confirmed
+  3 | Bruno  | Confirmed
+  4 | Maksim | Confirmed
   5 | Jasper | Not yet
   6 | Quinn  | Not yet
   7 | Jacob  | Not yet
@@ -104,6 +104,22 @@ lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
 
 Een vrijwilliger helpt met het opbouwen van de ruimte,
 ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
+
+## 8-12 year old guests
+
+ * Rohan (paranymph)
+ * Bruno
+
+## 13-17 year old guests
+
+ * Mart (paranymph)
+
+## Adult guests
+
+ * Will and Corrie Bilderbeek
+ * Nora Migdad
+ * Carleen Baarda
+ * Henk Hanson
 
 ## FAQ
 
