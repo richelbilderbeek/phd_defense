@@ -88,17 +88,17 @@ lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
 
 ## Volunteers
 
- * Bruno
- * Jacob
- * Jasper
- * Jesper
- * Jonas
- * Mart
- * Oliver
- * Quinn
- * Rohan
- * Seb
- * (another one, see Teaching logbook)
+ * Bruno: first reserve paranymph, confirmed
+ * Jacob: ?
+ * Jasper: ?
+ * Jesper: ?
+ * Jonas: ?
+ * Mart: paranymph, confirmed
+ * Oliver: ?
+ * Quinn: ?
+ * Rohan: paranymph, confirmed
+ * Seb: ?
+ * ?
 
 ## (NL) Wat doet een vrijwilliger?
 
@@ -108,7 +108,8 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 ## 8-12 year old guests
 
  * Rohan (paranymph)
- * Bruno
+ * Bruno (first reserve paranymph)
+ * Maksim (second reserve paranymph)
 
 ## 13-17 year old guests
 
