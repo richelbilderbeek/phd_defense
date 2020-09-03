@@ -121,6 +121,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * Nora Migdad
  * Carleen Baarda
  * Henk Hanson
+ * Kirsten Ferwerda
 
 ## FAQ
 
