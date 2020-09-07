@@ -33,7 +33,7 @@ Time       |What                 |Who                  |Where
 .          |Preparation          |Richel and paranymphs|DJO
 16:15-17:15|PhD defense          |Everyone             |DJO
 17:15-18:00|Congratulations      |Everyone             |DJO
-18:00-20:00|Family dinner        |Family               |A top-secret location
+18:00-20:00|Family dinner        |Family               |[De Buurvrouw](https://eetcafedebuurvrouw.nl), Oostersingel 152
 20:00-??:??|Beer!                |Adults               |Unknown yet, decided by beernymphs
 
 ## Kaart
