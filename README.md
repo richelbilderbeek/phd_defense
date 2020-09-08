@@ -114,6 +114,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 ## 13-17 year old guests
 
  * Mart (paranymph)
+ * Rafayel Gardishyan (guest)
 
 ## Adult guests
 
