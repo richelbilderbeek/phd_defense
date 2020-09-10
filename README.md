@@ -123,6 +123,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * Carleen Baarda
  * Henk Hanson
  * Kirsten Ferwerda
+ * Marco Klinkenberg
 
 ## FAQ
 
