@@ -124,6 +124,8 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * Henk Hanson
  * Kirsten Ferwerda
  * Marco Klinkenberg
+ * Bas van Tiggelen
+ * Annemieke van Schie
 
 ## FAQ
 
