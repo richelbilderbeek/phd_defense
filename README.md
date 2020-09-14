@@ -6,6 +6,7 @@ My PhD defense.
  * Time: 16:15 to approx 17:15
  * Videostream of defense at [https://www.rug.nl/digitalphd](https://www.rug.nl/digitalphd)
  * Location: De Jonge Onderzoekers, Dirk Huizingastraat 13
+ * [My PhD thesis and propositions](https://github.com/richelbilderbeek/thesis)
 
 Time       |What                 
 -----------|---------------------
@@ -126,6 +127,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * Marco Klinkenberg
  * Bas van Tiggelen
  * Annemieke van Schie
+ * Martin Paulussen
 
 ## FAQ
 
@@ -137,6 +139,6 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 
 ## Misc
 
- * My thesis: [http://richelbilderbeek.nl/thesis.pdf](http://richelbilderbeek.nl/thesis.pdf)
+ * [My PhD thesis and propositions](https://github.com/richelbilderbeek/thesis)
  * [RuG announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
 
