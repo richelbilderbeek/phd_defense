@@ -123,7 +123,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * Corrie Bilderbeek (3)
  * Nora Migdad (4)
  * Carleen Baarda (5)
- * Henk Hanson (6)
+ * [FREE SPOT] (6)
  * Kirsten Ferwerda (7)
  * Marco Klinkenberg (8)
  * Bas van Tiggelen (9)
