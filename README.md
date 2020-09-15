@@ -115,19 +115,21 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 ## 13-17 year old guests
 
  * Mart (paranymph)
- * Rafayel Gardishyan (guest)
+ * Rafayel Gardishyan (guest) (1)
 
 ## Adult guests
 
- * Will and Corrie Bilderbeek
- * Nora Migdad
- * Carleen Baarda
- * Henk Hanson
- * Kirsten Ferwerda
- * Marco Klinkenberg
- * Bas van Tiggelen
- * Annemieke van Schie
- * Martin Paulussen
+ * Will Bilderbeek (2)
+ * Corrie Bilderbeek (3)
+ * Nora Migdad (4)
+ * Carleen Baarda (5)
+ * Henk Hanson (6)
+ * Kirsten Ferwerda (7)
+ * Marco Klinkenberg (8)
+ * Bas van Tiggelen (9)
+ * Annemieke van Schie (10)
+ * Martin Paulussen (11)
+ * Kez den Engelsman (12)
 
 ## FAQ
 
