@@ -18,8 +18,11 @@ Time       |What
 
 ## Evening program
 
-Beer at somewhere, starting from 20:00,
-at a location to be decided by the beernymphs.
+Beer at the grass field in front of the Linnaeusborg (at the Zernike campus
+in Groningen), starting from 20:00,
+[here](https://www.openstreetmap.org/#map=17/53.24066/6.53560):
+
+![](map_party.png)
 
 ## Full schedule
 
@@ -43,17 +46,15 @@ Time       |What                 |Who                  |Where
 
 ![](map_djo.png)
 
-### Party
-
-The party is outside of the Linnaeusborg, adapted from [https://www.openstreetmap.org/#map=17/53.24066/6.53560](https://www.openstreetmap.org/#map=17/53.24066/6.53560):
-
-![](map_party.png)
-
 ## Corona 
+
+These are the people involved in the official part.
 
 Name              |Role
 ------------------|----------
 Han Olff          |Chairman
+Rampal Etienne    |Promotor
+Alex Pigot        |Co-promotor
 Daniel Raboski    |Opponent
 Ernst Wit         |Opponent
 Florian Hartig    |Opponent
@@ -100,12 +101,10 @@ wordt door de eerst gekozen paranimf voorgelezen.
 De zeven stellingen kun je [hier](https://github.com/richelbilderbeek/thesis_propositions/blob/master/propositions.tex#L54)
 lezen (een paranimf hoeft de stellingen niet te snappen :grin::+1:).
 
-
 ## Beernymphs
 
  * Alexine
  * Sjors
- * Paranymphs
 
 ## Volunteers
 
@@ -157,7 +156,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 
  * For the layman talk: yes, if you are younger than 13 years old 
  * For the ceremony: yes, if you are younger than 13 years old
- * For the evening program: if you are an adult
+ * For the evening program: yes, if you are an adult
 
 Due to COVID-19 measures, we allow for a maximum for 12 people that are 13 years
 or older.
