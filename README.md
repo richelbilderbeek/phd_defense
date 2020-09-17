@@ -35,26 +35,34 @@ Time       |What                 |Who                  |Where
 16:15-17:15|PhD defense          |Everyone             |DJO
 17:15-18:00|Congratulations      |Everyone             |DJO
 18:00-20:00|Family dinner        |Family               |[De Buurvrouw](https://eetcafedebuurvrouw.nl), Oostersingel 152
-20:00-??:??|Beer!                |Adults               |Unknown yet, decided by beernymphs
+20:00-??:??|Beer!                |Adults               |Outside of the Linnaeusborg 
 
-## Kaart
+## Maps
 
-![](map.png)
+### De Jonge Onderzoekers
+
+![](map_djo.png)
+
+### Party
+
+The party is outside of the Linnaeusborg, adapted from [https://www.openstreetmap.org/#map=17/53.24066/6.53560](https://www.openstreetmap.org/#map=17/53.24066/6.53560):
+
+![](map_party.png)
 
 ## Paranymph list
 
-Rank| Name   | Confirmed
-----|--------|----------
-  1 | Mart   | Confirmed
-  2 | Rohan  | Confirmed
-  3 | Bruno  | Confirmed
-  4 | Maksim | Confirmed
-  5 | Jasper | Not yet
-  6 | Quinn  | Not yet
-  7 | Jacob  | Not yet
-  8 | Seb    | Not yet
-  9 | Jesper | Not yet
- 10 | Oliver | Not yet
+Rank| Name   
+----|--------
+  1 | Mart   
+  2 | Rohan  
+  3 | Bruno  
+  4 | Maksim 
+  5 | Jasper 
+  6 | Quinn  
+  7 | Jacob  
+  8 | Seb    
+  9 | Jesper 
+ 10 | Oliver 
 
 ## (NL) Wat doet een paranimf?
 
