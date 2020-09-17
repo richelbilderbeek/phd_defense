@@ -49,6 +49,18 @@ The party is outside of the Linnaeusborg, adapted from [https://www.openstreetma
 
 ![](map_party.png)
 
+## Corona 
+
+Name              |Role
+------------------|----------
+Han Olff          |Chairman
+Daniel Raboski    |Opponent
+Ernst Wit         |Opponent
+Florian Hartig    |Opponent
+Hanno Hildenbrandt|Opponent
+Luke Harmon       |Opponent
+Thijs Janzen      |Opponent
+
 ## Paranymph list
 
 Rank| Name   
