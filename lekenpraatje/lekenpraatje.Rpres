@@ -7,6 +7,14 @@ autosize: true
 Overzicht
 ========================================================
 
+```{r}
+library(beautier)
+library(pirouette)
+```
+
+Overzicht
+========================================================
+
  * Wat is een lekenpraatje?
  * Wat doet een wetenschapper?
  * Wat is een promotie?
@@ -38,17 +46,372 @@ Wat heb ik gedaan?
  * 'Speciation and the error we make in phylogenetic inference'
  * Soortvorming en de fout die we maken als we fylogenieen maken
 
-***
+Wat is een fylogenie?
+========================================================
+
+
+Wat is een fylogenie?
+========================================================
+
+![](524px-Ape_and_Human_Evolution_Tree.JPG)
+
+Wat is een fylogenie?
+========================================================
 
 ```{r echo=FALSE}
-ape::plot.phylo(ape::read.tree(text = "((Mens,Gorilla):1, Dolfijn:2):1;"), edge.width = 3, cex = 3)
+phylogeny <- ape::read.tree(text = "((M:1,G:1):1, D:2):1;")
+ape::plot.phylo(phylogeny, edge.width = 3, cex = 3)
+```
+
+***
+
+ * D = Dolfijn
+ * G = Gorilla
+ * M = Mens
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+```{r echo=FALSE}
+# DNA animation by brian0918&amp;#153; - Own work, Public Domain,
+# https://commons.wikimedia.org/w/index.php?curid=404735
+```
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+***
+
+ * DNA
+
+Hoeveel letters heeft DNA?
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+***
+
+ * DNA
+ * 4 lettercode: A, C, G en T
+
+Hoeveel letters heeft een mens?
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+***
+
+ * DNA
+ * 4 lettercode: A, C, G en T
+ * Mens: 6 miljard letters
+
+Hoeveel procent verschillen twee mensen?
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+***
+
+ * DNA
+ * 4 lettercode: A, C, G en T
+ * Mens: 6 miljard letters
+ * Verschil mensen: 0.1%
+
+Hoeveel procent verschillen een mens en een gorilla?
+
+Waarvan maken we een fylogenie?
+========================================================
+
+![](DNA_animation.gif)
+
+***
+
+ * DNA
+ * 4 lettercode: A, C, G en T
+ * Mens: 6 miljard letters
+ * Verschil mensen: 0.1%
+ * Verschil mens-aap: 1.1%
+
+```{r echo=FALSE,fig.width=20}
+set.seed(314)
+root_sequence <- paste0(rep("a", times = 40), collapse = "")
+alignment <- pirouette::sim_alignment_with_std_nsm(
+  phylogeny = phylogeny,
+  root_sequence = root_sequence,
+  mutation_rate = 0.2,
+  site_model = beautier::create_jc69_site_model()
+)
+```
+
+```{r echo=FALSE}
+fasta_filename <- file.path(tempfile(), "alignment.fasta")
+dir.create(path = dirname(fasta_filename), recursive = TRUE, showWarnings = FALSE)
+ape::write.FASTA(x = alignment, file = fasta_filename)
+
 ```
 
 Hoe maken we een fylogenie?
 ========================================================
 
-```{r}
-
+```{r echo=FALSE}
+cat(readr::read_lines(fasta_filename), sep = "\n")
 ```
+
+Hoe maken we een fylogenie?
+========================================================
+
+```{r echo=FALSE,fig.width=20}
+ape::image.DNAbin(alignment, cex = 5)
+```
+
+Hoe maken we een fylogenie?
+========================================================
+
+```{r echo=FALSE}
+inference_model <- beautier::create_inference_model(
+  mrca_prior = beautier::create_mrca_prior(
+    alignment_id = beautier::get_alignment_id(fasta_filename = fasta_filename),
+    taxa_names = beautier::get_taxa_names(filename = fasta_filename),
+    is_monophyletic = TRUE,
+    mrca_distr = beautier::create_normal_distr(mean = 2.0, sigma = 0.001)
+  )
+)
+```
+
+```{r echo=FALSE,cache=TRUE}
+inference <- babette::bbt_run_from_model(
+  fasta_filename = fasta_filename,
+  inference_model = inference_model,
+  beastier::create_beast2_options(rng_seed = 314)
+)
+```
+
+```{r echo=FALSE,fig.width=20,fig.height=10}
+babette::plot_densitree(tail(inference$alignment_trees, n = 900), cex = 3, width  = 3, alpha = 0.05, cex.axis = 30)
+```
+
+De fout die we maken als we fylogenieen maken
+========================================================
+
+```{r echo=FALSE}
+babette::plot_densitree(tail(inference$alignment_trees, n = 900), cex = 3, width  = 1, alpha = 0.1, cex.axis = 30)
+```
+
+***
+
+```{r echo=FALSE}
+ape::plot.phylo(phylogeny, edge.width = 3, cex = 3)
+ape::add.scale.bar()
+```
+
+De fout die we maken als we fylogenieen maken
+========================================================
+
+```{r echo=FALSE}
+pir_params <- pirouette::create_pir_params(
+  alignment_params = pirouette::create_alignment_params(
+    root_sequence = root_sequence,
+    rng_seed = 314,
+    fasta_filename = fasta_filename
+  ),
+  experiments = list(
+    pirouette::create_gen_experiment(
+      inference_model = inference_model
+    )
+  )
+)
+pirouette::check_pir_params(pir_params)
+```
+
+```{r echo=FALSE,cache=TRUE}
+pir_out <- pirouette::pir_run(
+  phylogeny = phylogeny,
+  pir_params = pir_params
+)
+```
+
+```{r echo=FALSE}
+pirouette::pir_plot(pir_out) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::theme(legend.position="none") +
+  ggplot2::scale_x_continuous(name = "Fout") +
+  ggplot2::scale_y_continuous(name = "Hoe vaak")
+```
+
+Soortvorming
+========================================================
+
+![](365px-Charles_Darwin_seated_crop.jpg)
+
+```{r echo=FALSE,out.width = "500px"}
+#knitr::include_graphics("Darwin's_finches.png")
+```
+
+Soortvorming
+========================================================
+
+![](471px-Darwin_Tree_1837.png)
+
+***
+
+![](636px-Darwin's_finches_by_Gould.jpg)
+
+
+Soortvorming
+========================================================
+
+![](640px-AgrihanNASA.jpg)
+
+***
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0),
+  y = c(0.0, 1.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 10), breaks = seq(0, 10)
+  )
+```
+
+Soortvorming
+========================================================
+
+![](640px-AgrihanNASA.jpg)
+
+***
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0),
+  y = c(1.0, 2.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 10), breaks = seq(0, 10)
+  )
+```
+
+Soortvorming: model 1
+========================================================
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0),
+  y = c(1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 10), breaks = seq(0, 10)
+  )
+```
+
+Soortvorming: model 1
+========================================================
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0),
+  y = c(1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 10), breaks = seq(0, 10)
+  )
+```
+
+***
+
+Dit is een hele rare ...
+
+Soortvorming: model 2
+========================================================
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0, 2.0, 3.0),
+  y = c(1.0, 2.0, 4.0, 8.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 10), breaks = seq(0, 10)
+  )
+```
+
+***
+
+ * Snelheid blijft gelijk
+ * Heel snel heel veel soorten
+
+Soortvorming: model 3
+========================================================
+
+```{r echo=FALSE}
+t <- tibble::tibble(
+  x = c(0.0, 1.0, 2.0, 3.0,  4.0,  5.0,  6.0,  7.0,  8.0),
+  y = c(1.0, 2.0, 4.0, 8.0, 12.0, 14.0, 15.0, 15.67, 16.0)
+)
+ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
+  ggplot2::geom_line(size = 3) +
+  ggplot2::geom_point(size = 10) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::scale_x_continuous(
+    name = "Tijd", limits = c(0, 10), breaks = seq(0, 10)
+  ) +
+  ggplot2::scale_y_continuous(
+    name = "Hoeveel soorten", limits = c(0, 16), breaks = seq(0, 16)
+  )
+```
+
+***
+
+ * Snelheid afhankelijk van het aantal soorten
+ * Er is een maximaal hoeveelheid aantal soorten
+
+Soortvorming en de fout die we maken als we fylogenieen maken
+========================================================
+
+# Maakt het model uit voor fylogenieen?
 
 
