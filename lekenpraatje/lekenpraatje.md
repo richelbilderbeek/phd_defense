@@ -42,4 +42,9 @@ Wat heb ik gedaan?
 
 ![plot of chunk unnamed-chunk-1](lekenpraatje-figure/unnamed-chunk-1-1.png)
 
+Hoe maken we een fylogenie?
+========================================================
+
+
+
 
