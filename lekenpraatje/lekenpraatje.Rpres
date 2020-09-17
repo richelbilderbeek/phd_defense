@@ -157,7 +157,6 @@ alignment <- pirouette::sim_alignment_with_std_nsm(
 fasta_filename <- file.path(tempfile(), "alignment.fasta")
 dir.create(path = dirname(fasta_filename), recursive = TRUE, showWarnings = FALSE)
 ape::write.FASTA(x = alignment, file = fasta_filename)
-
 ```
 
 Hoe maken we een fylogenie?
@@ -253,9 +252,6 @@ Soortvorming
 
 ![](365px-Charles_Darwin_seated_crop.jpg)
 
-```{r echo=FALSE,out.width = "500px"}
-#knitr::include_graphics("Darwin's_finches.png")
-```
 
 Soortvorming
 ========================================================
@@ -409,9 +405,122 @@ ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
  * Snelheid afhankelijk van het aantal soorten
  * Er is een maximaal hoeveelheid aantal soorten
 
-Soortvorming en de fout die we maken als we fylogenieen maken
+Hoofdvraag
 ========================================================
 
-# Maakt het model uit voor fylogenieen?
+# Maakt het soortvormingsmodel uit voor fylogenieen?
+
+Hoofdvraag
+========================================================
+
+# Als de natuur [zo werkt] en we nemen aan dat ze [anders werkt], maken we dan een grote fout?
+
+Hoe meten we dit? Stap 1 van 4
+========================================================
+
+ * We *bepalen* fylogenieen, 'de natuur/waarheid',
+   volgens een bepaald soortvormingsmodel
+
+***
+
+```{r echo=FALSE}
+ape::plot.phylo(phylogeny, edge.width = 3, cex = 3)
+ape::add.scale.bar()
+```
 
 
+Hoe meten we dit? Stap 2 van 4
+========================================================
+
+ * We *simuleren* DNA volgordes, 'de meting'
+
+***
+
+```{r echo=FALSE,fig.width=20}
+ape::image.DNAbin(alignment, cex = 5)
+```
+
+
+Hoe meten we dit? Stap 3 van 4
+========================================================
+
+ * We *concluderen* fylogenieen, 'de conclusie',
+   volgens een bepaald soortvormingsmodel
+
+***
+
+```{r echo=FALSE,fig.width=20,fig.height=10}
+babette::plot_densitree(tail(inference$alignment_trees, n = 900), cex = 3, width  = 3, alpha = 0.05, cex.axis = 30)
+```
+
+Hoe meten we dit? Stap 4 van 4
+========================================================
+
+ * We *vergelijken* de 'echte' en de geconludeerde fylogenie
+
+***
+
+```{r echo=FALSE}
+pirouette::pir_plot(pir_out) +
+  ggplot2::theme(text = ggplot2::element_text(size = 30)) +
+  ggplot2::theme(legend.position="none") +
+  ggplot2::scale_x_continuous(name = "Fout") +
+  ggplot2::scale_y_continuous(name = "Hoe vaak")
+```
+
+We maken altijd fouten
+========================================================
+
+```{r echo=FALSE}
+knitr::include_graphics("example_22_errors.png")
+```
+
+***
+
+In de natuur: soortvorming gaat altijd even snel
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel
+
+De fout maakt niet uit
+========================================================
+
+```{r echo=FALSE,out.width = "500px"}
+knitr::include_graphics("example_26_errors.png")
+```
+
+***
+
+In de natuur: soortvorming gaat altijd even snel, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+De fout maakt wel uit
+========================================================
+
+```{r echo=FALSE,out.width = "500px"}
+knitr::include_graphics("example_30_errors.png")
+```
+
+***
+
+In de natuur: soortvorming gaat steeds trager, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+De fout maakt niet uit
+========================================================
+
+```{r echo=FALSE,out.width = "500px"}
+knitr::include_graphics("razzo.png")
+```
+
+***
+
+In de natuur: soortvorming gaat in sprongen en steeds trager, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+Conclusie
+========================================================
+
+wefw

@@ -192,7 +192,6 @@ Soortvorming
 ![](365px-Charles_Darwin_seated_crop.jpg)
 
 
-
 Soortvorming
 ========================================================
 
@@ -210,7 +209,7 @@ Soortvorming
 
 ***
 
-![plot of chunk unnamed-chunk-17](lekenpraatje-figure/unnamed-chunk-17-1.png)
+![plot of chunk unnamed-chunk-16](lekenpraatje-figure/unnamed-chunk-16-1.png)
 
 Soortvorming
 ========================================================
@@ -219,17 +218,17 @@ Soortvorming
 
 ***
 
+![plot of chunk unnamed-chunk-17](lekenpraatje-figure/unnamed-chunk-17-1.png)
+
+Soortvorming: model 1
+========================================================
+
 ![plot of chunk unnamed-chunk-18](lekenpraatje-figure/unnamed-chunk-18-1.png)
 
 Soortvorming: model 1
 ========================================================
 
 ![plot of chunk unnamed-chunk-19](lekenpraatje-figure/unnamed-chunk-19-1.png)
-
-Soortvorming: model 1
-========================================================
-
-![plot of chunk unnamed-chunk-20](lekenpraatje-figure/unnamed-chunk-20-1.png)
 
 ***
 
@@ -238,7 +237,7 @@ Dit is een hele rare ...
 Soortvorming: model 2
 ========================================================
 
-![plot of chunk unnamed-chunk-21](lekenpraatje-figure/unnamed-chunk-21-1.png)
+![plot of chunk unnamed-chunk-20](lekenpraatje-figure/unnamed-chunk-20-1.png)
 
 ***
 
@@ -248,16 +247,108 @@ Soortvorming: model 2
 Soortvorming: model 3
 ========================================================
 
-![plot of chunk unnamed-chunk-22](lekenpraatje-figure/unnamed-chunk-22-1.png)
+![plot of chunk unnamed-chunk-21](lekenpraatje-figure/unnamed-chunk-21-1.png)
 
 ***
 
  * Snelheid afhankelijk van het aantal soorten
  * Er is een maximaal hoeveelheid aantal soorten
 
-Soortvorming en de fout die we maken als we fylogenieen maken
+Hoofdvraag
 ========================================================
 
-# Maakt het model uit voor fylogenieen?
+# Maakt het soortvormingsmodel uit voor fylogenieen?
+
+Hoofdvraag
+========================================================
+
+# Als de natuur [zo werkt] en we nemen aan dat ze [anders werkt], maken we dan een grote fout?
+
+Hoe meten we dit? Stap 1 van 4
+========================================================
+
+ * We *bepalen* fylogenieen, 'de natuur/waarheid',
+   volgens een bepaald soortvormingsmodel
+
+***
+
+![plot of chunk unnamed-chunk-22](lekenpraatje-figure/unnamed-chunk-22-1.png)
 
 
+Hoe meten we dit? Stap 2 van 4
+========================================================
+
+ * We *simuleren* DNA volgordes, 'de meting'
+
+***
+
+![plot of chunk unnamed-chunk-23](lekenpraatje-figure/unnamed-chunk-23-1.png)
+
+
+Hoe meten we dit? Stap 3 van 4
+========================================================
+
+ * We *concluderen* fylogenieen, 'de conclusie',
+   volgens een bepaald soortvormingsmodel
+
+***
+
+![plot of chunk unnamed-chunk-24](lekenpraatje-figure/unnamed-chunk-24-1.png)
+
+Hoe meten we dit? Stap 4 van 4
+========================================================
+
+ * We *vergelijken* de 'echte' en de geconludeerde fylogenie
+
+***
+
+![plot of chunk unnamed-chunk-25](lekenpraatje-figure/unnamed-chunk-25-1.png)
+
+We maken altijd fouten
+========================================================
+
+![plot of chunk unnamed-chunk-26](example_22_errors.png)
+
+***
+
+In de natuur: soortvorming gaat altijd even snel
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel
+
+De fout maakt niet uit
+========================================================
+
+<img src="example_26_errors.png" title="plot of chunk unnamed-chunk-27" alt="plot of chunk unnamed-chunk-27" width="500px" />
+
+***
+
+In de natuur: soortvorming gaat altijd even snel, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+De fout maakt wel uit
+========================================================
+
+<img src="example_30_errors.png" title="plot of chunk unnamed-chunk-28" alt="plot of chunk unnamed-chunk-28" width="500px" />
+
+***
+
+In de natuur: soortvorming gaat steeds trager, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+De fout maakt niet uit
+========================================================
+
+<img src="razzo.png" title="plot of chunk unnamed-chunk-29" alt="plot of chunk unnamed-chunk-29" width="500px" />
+
+***
+
+In de natuur: soortvorming gaat in sprongen en steeds trager, soorten sterven uit
+
+Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+
+Conclusie
+========================================================
+
+wefw
