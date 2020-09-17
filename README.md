@@ -136,20 +136,22 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
 
  * Mart (paranymph)
  * Rafayel Gardishyan (guest) (1)
+ * Joshua (guest) (2)
 
 ## Adult guests
 
- * Will Bilderbeek (2)
- * Corrie Bilderbeek (3)
- * Nora Migdad (4)
- * Carleen Baarda (5)
- * Jan Kotlarski (6)
- * Kirsten Ferwerda (7)
- * Marco Klinkenberg (8)
- * Bas van Tiggelen (9)
- * Annemieke van Schie (10)
- * Martin Paulussen (11)
- * Kez den Engelsman (12)
+ * Will Bilderbeek (3)
+ * Corrie Bilderbeek (4)
+ * Nora Migdad (5)
+ * Carleen Baarda (6)
+ * Jan Kotlarski (7)
+ * Kirsten Ferwerda (8)
+ * Marco Klinkenberg (9)
+ * Bas van Tiggelen (10)
+ * Annemieke van Schie (11)
+ * Martin Paulussen (12)
+ * Kez den Engelsman (13)
+ * Gizella (14)
 
 ## FAQ
 
