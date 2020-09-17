@@ -28,17 +28,18 @@ in Groningen), starting from 20:00,
 
 This includes different roles
 
-Time       |What                 |Who                  |Where
------------|---------------------|---------------------|---------------------------------------------
-14:00-15:00|Preparation          |Richel and volunteers|DJO
-15:00-15:15|Doors are open       |Everyone             |DJO
-15:15-15:45|Layman talk          |Everyone             |DJO
-15:45-16:15|Break                |Guests               |DJO
-.          |Preparation          |Richel and paranymphs|DJO
-16:15-17:15|PhD defense          |Everyone             |DJO
-17:15-18:00|Congratulations      |Everyone             |DJO
-18:00-20:00|Family dinner        |Family               |[De Buurvrouw](https://eetcafedebuurvrouw.nl), Oostersingel 152
-20:00-??:??|Beer!                |Adults               |Outside of the Linnaeusborg 
+Time       |What                  |Who                  |Where
+-----------|----------------------|---------------------|---------------------------------------------
+14:00-15:00|Preparation           |Richel and volunteers|DJO
+14:30-14:45|Fetch Richel's parents|Paranymphs           |NH Groningen hotel
+15:00-15:15|Doors are open        |Everyone             |DJO
+15:15-15:45|Layman talk           |Everyone             |DJO
+15:45-16:15|Break                 |Guests               |DJO
+.          |Preparation           |Richel and paranymphs|DJO
+16:15-17:15|PhD defense           |Everyone             |DJO
+17:15-18:00|Congratulations       |Everyone             |DJO
+18:00-20:00|Family dinner         |Family               |[De Buurvrouw](https://eetcafedebuurvrouw.nl), Oostersingel 152
+20:00-??:??|Beer!                 |Adults               |Outside of the Linnaeusborg 
 
 ## Maps
 
