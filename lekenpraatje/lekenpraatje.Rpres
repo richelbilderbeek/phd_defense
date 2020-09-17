@@ -21,6 +21,7 @@ Overzicht
  * Wat heb ik gedaan?
 
 
+
 Lekenpraatje
 ========================================================
 
@@ -244,7 +245,8 @@ pirouette::pir_plot(pir_out) +
   ggplot2::theme(text = ggplot2::element_text(size = 30)) +
   ggplot2::theme(legend.position="none") +
   ggplot2::scale_x_continuous(name = "Fout") +
-  ggplot2::scale_y_continuous(name = "Hoe vaak")
+  ggplot2::scale_y_continuous(name = "Hoe vaak") +
+  ggplot2::ggtitle("")
 ```
 
 Soortvorming
@@ -465,7 +467,8 @@ pirouette::pir_plot(pir_out) +
   ggplot2::theme(text = ggplot2::element_text(size = 30)) +
   ggplot2::theme(legend.position="none") +
   ggplot2::scale_x_continuous(name = "Fout") +
-  ggplot2::scale_y_continuous(name = "Hoe vaak")
+  ggplot2::scale_y_continuous(name = "Hoe vaak") +
+  ggplot2::ggtitle("")
 ```
 
 We maken altijd fouten
