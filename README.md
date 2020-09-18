@@ -18,9 +18,9 @@ Time       |What
 
 ## Evening program
 
-Beer at the grass field in front of the Linnaeusborg (at the Zernike campus
-in Groningen), starting from 20:00,
-[here](https://www.openstreetmap.org/#map=17/53.24066/6.53560):
+Beer in Selwerd Park, due to the impossibility of gatherings outside Linnaesbourg 
+starting from 20:00,
+[here](https://www.openstreetmap.org/note/2353882#map=18/53.23396/6.54775&layers=N):
 
 ![](map_party.png)
 
@@ -39,7 +39,7 @@ Time       |What                  |Who                  |Where
 16:15-17:15|PhD defense           |Everyone             |DJO
 17:15-18:00|Congratulations       |Everyone             |DJO
 18:00-20:00|Family dinner         |Family               |[De Buurvrouw](https://eetcafedebuurvrouw.nl), Oostersingel 152
-20:00-??:??|Beer!                 |Adults               |Outside of the Linnaeusborg 
+20:00-??:??|Beer!                 |Adults               |In Selwerd Park, due to the impossibility of gatherings outside Linnaesbourg 
 
 ## Maps
 
