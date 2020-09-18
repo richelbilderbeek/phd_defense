@@ -161,7 +161,7 @@ ontvangt de gasten, verzorgt de gasten, geeft rondleidingen op verzoek.
  * For the ceremony: yes, if you are younger than 13 years old
  * For the evening program: yes, if you are an adult
 
-Due to COVID-19 measures, we allow for a maximum for 12 people that are 13 years
+Due to COVID-19 measures, we allow for a maximum for 14 people that are 13 years or older
 or older.
 
 ## Misc
