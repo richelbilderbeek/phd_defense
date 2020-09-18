@@ -4,42 +4,62 @@ author: Richèl J.C. Bilderbeek
 date:
 autosize: true
 
-Overzicht
+
+```
+https://github.com/richelbilderbeek/
+phd_defense
+```
+
+![](CC-BY-NC-SA.png)
+
+Lekenpraatje
 ========================================================
 
-```{r}
+```{r echo=FALSE}
 library(beautier)
 library(pirouette)
 ```
 
-Overzicht
-========================================================
-
- * Wat is een lekenpraatje?
- * Wat doet een wetenschapper?
- * Wat is een promotie?
- * Wat heb ik gedaan?
-
-
+![](cartoon5.gif)
 
 Lekenpraatje
 ========================================================
 
 Praatje voor 'normale mensen',
-die nog niet veel weten van het onderwerp
+die nog niet veel weten van het onderwerp.
 
 Wat doet een wetenschapper?
 ========================================================
 
- * Experimenten
- * Artikelen schrijven
- * Vertellen
+![](Zernike.jpg)
+
+Wat doet een wetenschapper?
+========================================================
+
+ * Leest wat andere wetenschappers doen
+ * Doet zelf experimenten
+ * Schrijft de resultaten op in een artikel
+ * Praat over zijn/haar ideeen
+
+![](babette_mee.png)
 
 Wat is een promotie?
 ========================================================
 
- * Een toneelstuk waarin een boekje met wetenschappelijk
-   artikelen plechtig goedgekeurt wordt
+![](promotie_light.jpg)
+
+Wat is een promotie?
+========================================================
+
+Een toneelstuk waarin een boekje met wetenschappelijk
+artikelen plechtig goedgekeurt wordt.
+
+ * Vragen opponenten
+ * Persoonlijke woorden van begeleider
+
+***
+
+![](rampal_github_light.jpg)
 
 Wat heb ik gedaan?
 ========================================================
@@ -47,9 +67,14 @@ Wat heb ik gedaan?
  * 'Speciation and the error we make in phylogenetic inference'
  * Soortvorming en de fout die we maken als we fylogenieen maken
 
+***
+
+![](phd_thesis_cover.png)
+
 Wat is een fylogenie?
 ========================================================
 
+?
 
 Wat is een fylogenie?
 ========================================================
@@ -79,6 +104,10 @@ Waarvan maken we een fylogenie?
 # DNA animation by brian0918&amp;#153; - Own work, Public Domain,
 # https://commons.wikimedia.org/w/index.php?curid=404735
 ```
+
+***
+
+Wat is dit?
 
 Waarvan maken we een fylogenie?
 ========================================================
@@ -268,7 +297,7 @@ Soortvorming
 Soortvorming
 ========================================================
 
-![](640px-AgrihanNASA.jpg)
+![](640px-AgrihanNASA_light.jpg)
 
 ***
 
@@ -292,7 +321,7 @@ ggplot2::ggplot(t, ggplot2::aes(x = x, y = y)) +
 Soortvorming
 ========================================================
 
-![](640px-AgrihanNASA.jpg)
+![](640px-AgrihanNASA_light.jpg)
 
 ***
 
@@ -423,6 +452,8 @@ Hoe meten we dit? Stap 1 van 4
  * We *bepalen* fylogenieen, 'de natuur/waarheid',
    volgens een bepaald soortvormingsmodel
 
+![](flying_spaghettimonster.jpg)
+
 ***
 
 ```{r echo=FALSE}
@@ -436,6 +467,8 @@ Hoe meten we dit? Stap 2 van 4
 
  * We *simuleren* DNA volgordes, 'de meting'
 
+![](field_biologist.jpeg)
+
 ***
 
 ```{r echo=FALSE,fig.width=20}
@@ -448,6 +481,8 @@ Hoe meten we dit? Stap 3 van 4
 
  * We *concluderen* fylogenieen, 'de conclusie',
    volgens een bepaald soortvormingsmodel
+
+![](289px-Gluehlampe_01_KMJ.jpg)
 
 ***
 
@@ -471,59 +506,53 @@ pirouette::pir_plot(pir_out) +
   ggplot2::ggtitle("")
 ```
 
+pirouette
+========================================================
+
+![](pirouette_article.png)
+
 We maken altijd fouten
 ========================================================
 
-```{r echo=FALSE}
-knitr::include_graphics("example_22_errors.png")
-```
-
-***
-
-In de natuur: soortvorming gaat altijd even snel
-
-Bij fylogenien bouwen: soortvorming gaat altijd even snel
+![](example_22_errors.png)
 
 De fout maakt niet uit
 ========================================================
 
-```{r echo=FALSE,out.width = "500px"}
-knitr::include_graphics("example_26_errors.png")
-```
-
-***
-
-In de natuur: soortvorming gaat altijd even snel, soorten sterven uit
-
-Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+![](example_26_errors.png)
 
 De fout maakt wel uit
 ========================================================
 
-```{r echo=FALSE,out.width = "500px"}
-knitr::include_graphics("example_30_errors.png")
-```
-
-***
-
-In de natuur: soortvorming gaat steeds trager, soorten sterven uit
-
-Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
+![](example_30_errors.png)
 
 De fout maakt niet uit
 ========================================================
 
-```{r echo=FALSE,out.width = "500px"}
-knitr::include_graphics("razzo.png")
-```
+![](razzo.png)
 
-***
-
-In de natuur: soortvorming gaat in sprongen en steeds trager, soorten sterven uit
-
-Bij fylogenien bouwen: soortvorming gaat altijd even snel, soorten sterven nooit uit
-
-Conclusie
+Wat ik ook heb gedaan
 ========================================================
 
-wefw
+![](babette_logo.png)
+
+
+Wat ik ook heb gedaan
+========================================================
+
+![](babette_github.png)
+
+Wat ik ook heb gedaan
+========================================================
+
+![](pirouette_logo.png)
+
+Wat ik ook heb gedaan
+========================================================
+
+![](pirouette_github.png)
+
+Einde
+========================================================
+
+Vragen?
