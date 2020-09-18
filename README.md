@@ -15,6 +15,7 @@ Time       |What
 15:45-16:15|Doors are open, break
 16:15-17:15|PhD defense          
 17:15-18:00|Congratulations      
+20:00-??:??|Beer at Linnaeusborg
 
 ## Evening program
 
@@ -23,6 +24,8 @@ in Groningen), starting from 20:00,
 [here](https://www.openstreetmap.org/#map=17/53.24066/6.53560):
 
 ![](map_party.png)
+
+:+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1:
 
 ## Full schedule
 
