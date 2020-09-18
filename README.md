@@ -22,7 +22,7 @@ Beer in Selwerd Park, due to the impossibility of gatherings outside Linnaesbour
 starting from 20:00,
 [here](https://www.openstreetmap.org/note/2353882#map=18/53.23396/6.54775&layers=N):
 
-![](map_party.png)
+![](map_party.jpg)
 
 ## Full schedule
 
