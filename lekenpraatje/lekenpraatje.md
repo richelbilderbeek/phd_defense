@@ -55,7 +55,7 @@ Wat is een fylogenie?
 Wat is een fylogenie?
 ========================================================
 
-![](524px-Ape_and_Human_Evolution_Tree.JPG)
+![](524px-Ape_and_Human_Evolution_Tree_light.jpg)
 
 Wat is een fylogenie?
 ========================================================
