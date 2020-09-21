@@ -12,6 +12,10 @@ My PhD defense.
 ![](photos/119703866_10160429786739768_8331219310054153863_n.jpg)
 ![](photos/119827937_10160429787429768_1899411454290357779_n.jpg)
 ![](photos/119933870_10160429787334768_7206147509786187204_n.jpg)
+![](photos/image00001.jpeg)
+![](photos/image00002.jpeg)
+![](photos/image00003.jpeg)
+![](photos/image00004.jpeg)
 
  * Date: September 18, 2020
  * Time: 16:15 to approx 17:15
