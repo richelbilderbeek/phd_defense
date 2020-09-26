@@ -2,6 +2,8 @@
 
 My PhD defense.
 
+ * Movie of my PhD defense: [YouTube](https://youtu.be/P4dOkJPo5WI) [download](http://richelbilderbeek.nl/phd_defense.mp4)
+
 ![](photos/119707381_10160429786804768_6649780824450937815_n.jpg)
 ![](photos/119826809_10160429787554768_7444925615295895792_n.jpg)
 ![](photos/119709351_10160429786119768_5839879299910910797_n.jpg)
@@ -182,6 +184,7 @@ or older.
 
 ## Misc
 
+ * Movie of my PhD defense: [YouTube](https://youtu.be/P4dOkJPo5WI) [download](http://richelbilderbeek.nl/phd_defense.mp4)
  * [My PhD thesis and propositions](https://github.com/richelbilderbeek/thesis)
  * [PhD defense announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
  * [RuG thesis download page](https://www.rug.nl/research/portal/nl/publications/speciation-and-the-error-we-make-in-phylogenetic-inference(95d847f2-8b46-420e-9eb3-2850b828577e).html)
