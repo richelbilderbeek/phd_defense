@@ -23,7 +23,7 @@ My PhD defense.
  * Time: 16:15 to approx 17:15
  * Videostream of defense at [https://www.rug.nl/digitalphd](https://www.rug.nl/digitalphd)
  * Location: De Jonge Onderzoekers, Dirk Huizingastraat 13
- * [My PhD thesis and propositions](https://github.com/richelbilderbeek/thesis)
+ * [My PhD thesis and propositions](https://github.com/richelbilderbeek/phd_thesis)
 
 Time       |What                 
 -----------|---------------------
@@ -185,7 +185,7 @@ or older.
 ## Misc
 
  * Movie of my PhD defense: [YouTube](https://youtu.be/P4dOkJPo5WI) [download](http://richelbilderbeek.nl/phd_defense.mp4)
- * [My PhD thesis and propositions](https://github.com/richelbilderbeek/thesis)
+ * [My PhD thesis and propositions](https://github.com/richelbilderbeek/phd_thesis)
  * [PhD defense announcement](https://www.rug.nl/about-ug/latest-news/events/promoties/promoties-2020?hfId=118284)
  * [RuG thesis download page](https://www.rug.nl/research/portal/nl/publications/speciation-and-the-error-we-make-in-phylogenetic-inference(95d847f2-8b46-420e-9eb3-2850b828577e).html)
  * [De Jonge Onderzoekers Facebook post](https://m.facebook.com/story.php?story_fbid=10160429787619768&id=195391724767&sfnsn=mo&extid=3mbKHQp9BLAR6nGA)
