@@ -1,6 +1,6 @@
 # phd_defense
 
-My PhD defense.
+My PhD defense at September 18th, 2020.
 
  * Movie of my PhD defense: [YouTube](https://youtu.be/P4dOkJPo5WI) [download](http://richelbilderbeek.nl/phd_defense.mp4)
 
